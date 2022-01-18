@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=The+Nautigal&display=swap"
+        rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашні тварини</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+            <li><a href="callbak.html">Зворотній зв'язок</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Написати нам</h1>
+    </header>
+    <main>
+        <form action="#">
+            <div class="input-group">
+                <label>Прізвище</label>
+                <input type="text" name="secondName"/>
+            </div>
+            <div class="input-group">
+                <label>Ім'я</label>
+                <input type="text" name="firstName"/>
+            </div>
+            <div class="input-group">
+                <label>Електронна пошта</label>
+                <input type="email" name="email"/>
+            </div>
+
+            <div class="input-group">
+                <label>Проблема</label>
+                <br/>
+                <textarea cols="50" rows="15" name="problem"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="yeas" id="yeas">
+                <label for="yeas">Я згоден з вашими правилами</label>
+            </div>
+            <div class="button-send">
+                <input type="reset" value="Скинути" />
+                <input type="submit" value="Надіслати" />
+            </div>
+            
+        </form>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input-group input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14pt;
+}
+
+.button-send input[type=submit], input[type=reset] {
+    font-size: 18pt;
+    padding:5px 15px; 
+    background:rgb(127, 168, 125); 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3cc781;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    /* background-color:rgb(101, 86, 190); */
+}
+
+.navbar li a:hover {
+    background-color: #077940;
+}
+
